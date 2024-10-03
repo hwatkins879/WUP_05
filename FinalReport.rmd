@@ -59,6 +59,13 @@ According to the visual numerical graph data, the percentage of people in the gr
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+Three statistical tests were conducted, and the findings from the previous group of females were used to calculate the probability that each test subject would receive a placebo or an aids treatment. The probability for the first test was 0.00007686, the second test's probability was 0.0001, and the third test's probability was 0.00006596. The probability, which indicate if the medication prevents HIV, are the statistical differences between the groups focused on women and the medication or placebo they took.
 
 # Discussion and Conclusion
 
