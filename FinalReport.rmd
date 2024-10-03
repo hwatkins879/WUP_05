@@ -37,8 +37,8 @@ female<- filter(triUmp, gender=="F")
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
 ```{r}
-barchartGC(~infected + treatment,data=triUmp)
-barchartGC(~infected + treatment,data=triUmp, type="percent")
+barchartGC(~infected + treatment,data=female)
+barchartGC(~infected + treatment,data=female, type="percent")
 
 ```
 
@@ -47,6 +47,13 @@ The visual graph indicates that within a sample of only female participants, tho
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+table1 <- xtabs(~infected + treatment,data=female)
+rowPerc(table1)
+colPerc(table1)
+```
+According to the visual numerical graph data, the percentage of people in the group who did not receive assistance is around 41%. When you look at the persons who got assistance the number is quite close to 60%.
 
 ## Inferential Results
 
