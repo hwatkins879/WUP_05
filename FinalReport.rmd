@@ -69,4 +69,7 @@ Three statistical tests were conducted, and the findings from the previous group
 
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the George Town videos collection.!-->
+
+I plotted a group of just female participants' data to see if the medication they were given helped prevent HIV. Then, the bar graph revealed that the female who received the medication had a higher risk of developing AIDS than the female who received a placebo. After that, I generated a numerical graph, and the outcome indicated that the percentage of females with HIV/AIDS was 20% higher than that of females without the disease. After that, I conducted three statistical tests to determine the likelihood that a female taking the medicine used in the test would contract HIV. According to the outcomes of every test, the medication helped the female group member get AIDS more effectively than if a placebo was administered instead. This test indicates that the medication was ineffective in females.
+
